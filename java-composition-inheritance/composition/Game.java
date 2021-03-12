@@ -37,7 +37,7 @@ interface PlayerCreator {
 public class AutomaticCreator implements PlayerCreator {
   @Override
   public List<Player> create() {
-    System.out.println("Creating players automatically");
+    System.out.println("Automatically creating players");
     return Collections.emptyList();
   }
 }
@@ -45,7 +45,7 @@ public class AutomaticCreator implements PlayerCreator {
 public class ManualCreator implements PlayerCreator {
   @Override
   public List<Player> create() {
-    System.out.println("Automatically creating players");
+    System.out.println("Manually creating players");
     return Collections.emptyList();
   }
 }
